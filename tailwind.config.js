@@ -3,6 +3,9 @@ module.exports = {
   content: ["./**/*.{html,js}"],
   theme: {
     extend: {
+      boxShadow: {
+        shadow1: '0px 0px 10px 0px rgba(191, 191, 191, 0.5)',
+      },
       fontFamily: {
         lato: ["Lato", "sans-serif"],
       },
@@ -11,7 +14,7 @@ module.exports = {
         44: "2.75rem",
       },
       maxWidth: {
-        siteWidth: "1512px",
+        siteWidth: "1336px",
       },
       colors: {
         'black': "#344054",
