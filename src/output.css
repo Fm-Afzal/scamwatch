@@ -746,6 +746,14 @@ p{
   z-index: 10;
 }
 
+.order-1{
+  order: 1;
+}
+
+.order-2{
+  order: 2;
+}
+
 .float-start{
   float: inline-start;
 }
@@ -1284,6 +1292,10 @@ p{
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.grid-cols-1{
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
 .flex-row{
   flex-direction: row;
 }
@@ -1470,6 +1482,10 @@ p{
 
 .gap-4{
   gap: 1rem;
+}
+
+.gap-8{
+  gap: 2rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]){
@@ -2110,6 +2126,10 @@ p{
   padding-top: 3.5rem;
 }
 
+.pt-\[50px\]{
+  padding-top: 50px;
+}
+
 .text-left{
   text-align: left;
 }
@@ -2735,12 +2755,22 @@ body{
 }
 
 @media (min-width: 768px){
+  .md\:order-1{
+    order: 1;
+  }
+
   .md\:mt-0{
     margin-top: 0px;
   }
 
   .md\:flex-row{
     flex-direction: row;
+  }
+
+  .md\:space-y-0 > :not([hidden]) ~ :not([hidden]){
+    --tw-space-y-reverse: 0;
+    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(0px * var(--tw-space-y-reverse));
   }
 
   .md\:divide-x-\[1px\] > :not([hidden]) ~ :not([hidden]){
@@ -2755,12 +2785,28 @@ body{
     border-bottom-width: calc(0px * var(--tw-divide-y-reverse));
   }
 
+  .md\:pt-\[100px\]{
+    padding-top: 100px;
+  }
+
   .md\:text-start{
     text-align: start;
   }
 }
 
 @media (min-width: 1024px){
+  .lg\:col-span-3{
+    grid-column: span 3 / span 3;
+  }
+
+  .lg\:col-span-2{
+    grid-column: span 2 / span 2;
+  }
+
+  .lg\:col-span-4{
+    grid-column: span 4 / span 4;
+  }
+
   .lg\:ml-auto{
     margin-left: auto;
   }
@@ -2779,6 +2825,32 @@ body{
 
   .lg\:grid-cols-3{
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-5{
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-6{
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-8{
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+  }
+
+  .lg\:gap-16{
+    gap: 4rem;
+  }
+
+  .lg\:space-y-6 > :not([hidden]) ~ :not([hidden]){
+    --tw-space-y-reverse: 0;
+    margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
+  }
+
+  .lg\:pt-\[100px\]{
+    padding-top: 100px;
   }
 }
 
