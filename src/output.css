@@ -750,10 +750,6 @@ p{
   order: 1;
 }
 
-.order-2{
-  order: 2;
-}
-
 .float-start{
   float: inline-start;
 }
@@ -813,10 +809,6 @@ p{
 
 .mt-5{
   margin-top: 1.25rem;
-}
-
-.mt-6{
-  margin-top: 1.5rem;
 }
 
 .box-border{
@@ -948,10 +940,6 @@ p{
 
 .max-w-\[600px\]{
   max-width: 600px;
-}
-
-.flex-none{
-  flex: none;
 }
 
 .flex-shrink{
@@ -1286,10 +1274,6 @@ p{
 
 .grid-flow-col-dense{
   grid-auto-flow: column dense;
-}
-
-.grid-cols-3{
-  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .grid-cols-1{
@@ -2114,14 +2098,6 @@ p{
   padding-right: 1.25rem;
 }
 
-.pt-10{
-  padding-top: 2.5rem;
-}
-
-.pt-\[100px\]{
-  padding-top: 100px;
-}
-
 .pt-14{
   padding-top: 3.5rem;
 }
@@ -2759,18 +2735,8 @@ body{
     order: 1;
   }
 
-  .md\:mt-0{
-    margin-top: 0px;
-  }
-
   .md\:flex-row{
     flex-direction: row;
-  }
-
-  .md\:space-y-0 > :not([hidden]) ~ :not([hidden]){
-    --tw-space-y-reverse: 0;
-    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(0px * var(--tw-space-y-reverse));
   }
 
   .md\:divide-x-\[1px\] > :not([hidden]) ~ :not([hidden]){
@@ -2795,28 +2761,8 @@ body{
 }
 
 @media (min-width: 1024px){
-  .lg\:col-span-3{
-    grid-column: span 3 / span 3;
-  }
-
-  .lg\:col-span-2{
-    grid-column: span 2 / span 2;
-  }
-
   .lg\:col-span-4{
     grid-column: span 4 / span 4;
-  }
-
-  .lg\:ml-auto{
-    margin-left: auto;
-  }
-
-  .lg\:w-1\/2{
-    width: 50%;
-  }
-
-  .lg\:max-w-\[600px\]{
-    max-width: 600px;
   }
 
   .lg\:max-w-siteWidth{
@@ -2825,14 +2771,6 @@ body{
 
   .lg\:grid-cols-3{
     grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .lg\:grid-cols-5{
-    grid-template-columns: repeat(5, minmax(0, 1fr));
-  }
-
-  .lg\:grid-cols-6{
-    grid-template-columns: repeat(6, minmax(0, 1fr));
   }
 
   .lg\:grid-cols-8{
@@ -2847,10 +2785,6 @@ body{
     --tw-space-y-reverse: 0;
     margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
-  }
-
-  .lg\:pt-\[100px\]{
-    padding-top: 100px;
   }
 }
 
