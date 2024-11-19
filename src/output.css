@@ -661,8 +661,20 @@ video {
   inset: -0.25rem;
 }
 
+.inset-0{
+  inset: 0px;
+}
+
 .end-1{
   inset-inline-end: 0.25rem;
+}
+
+.left-0{
+  left: 0px;
+}
+
+.top-0{
+  top: 0px;
 }
 
 .isolate{
@@ -671,6 +683,10 @@ video {
 
 .isolation-auto{
   isolation: auto;
+}
+
+.z-10{
+  z-index: 10;
 }
 
 .float-start{
@@ -820,6 +836,18 @@ video {
   display: none;
 }
 
+.h-\[50vh\]{
+  height: 50vh;
+}
+
+.h-\[70vh\]{
+  height: 70vh;
+}
+
+.h-full{
+  height: 100%;
+}
+
 .w-\[this-is\\\\\]{
   width: this-is\\;
 }
@@ -830,6 +858,10 @@ video {
 
 .w-\[weird-and-invalid\]{
   width: weird-and-invalid;
+}
+
+.w-full{
+  width: 100%;
 }
 
 .flex-shrink{
@@ -1795,9 +1827,21 @@ video {
   background-color: rgb(255 0 0 / var(--tw-bg-opacity, 1));
 }
 
-.bg-red-700{
+.bg-black{
   --tw-bg-opacity: 1;
-  background-color: rgb(185 28 28 / var(--tw-bg-opacity, 1));
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
+}
+
+.bg-opacity-50{
+  --tw-bg-opacity: 0.5;
+}
+
+.bg-opacity-80{
+  --tw-bg-opacity: 0.8;
+}
+
+.bg-opacity-40{
+  --tw-bg-opacity: 0.4;
 }
 
 .decoration-slice{
@@ -1818,6 +1862,10 @@ video {
 .box-decoration-clone{
   -webkit-box-decoration-break: clone;
           box-decoration-break: clone;
+}
+
+.bg-cover{
+  background-size: cover;
 }
 
 .bg-fixed{
@@ -1847,6 +1895,10 @@ video {
 .bg-clip-text{
   -webkit-background-clip: text;
           background-clip: text;
+}
+
+.bg-center{
+  background-position: center;
 }
 
 .bg-repeat{

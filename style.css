@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+  @apply font-lato;
+}
+
 .holder {
   @apply max-w-siteWidth mx-auto md:px-12 px-6;
 }
