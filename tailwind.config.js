@@ -20,11 +20,11 @@ module.exports = {
         'black': "#344054",
         'black2': "#484848",
         'blue1': "#266df1",
+        'blue-light': "#568df4",
         'gray1': "#f0f4f6",
         'gray2': "#d0d5dd",
         'gray3': "#f9f9f9",
-        'bright-Orange': "#FF742D",
-        'soft-vanilla': "#FFF5D2",
+        'gray4': "#d6d6d6",
       },
       padding: {
         30: "30px",
