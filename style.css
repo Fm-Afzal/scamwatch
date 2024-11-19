@@ -21,10 +21,10 @@ body {
     @apply text-5xl font-normal leading-none;
   } */
   h2 {
-    @apply font-lato text-44  md:text-5xl font-bold leading-[3.5rem] -tracking-[0.0605rem] md:-tracking-[0.066rem];
+    @apply font-lato text-44  md:text-5xl font-bold leading-[3.5rem] md:leading-[3.5rem] -tracking-[0.0605rem] md:-tracking-[0.066rem];
   }
   h3 {
-    @apply text-2xl font-bold leading-none;
+    @apply text-26 font-bold leading-32 ;
   }
   h4 {
     @apply text-xl font-bold leading-none;

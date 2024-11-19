@@ -7,6 +7,7 @@ module.exports = {
         lato: ["Lato", "sans-serif"],
       },
       fontSize: {
+        26: "1.625rem",
         44: "2.75rem",
       },
       maxWidth: {
@@ -15,7 +16,7 @@ module.exports = {
       colors: {
         'black': "#344054",
         'blue1': "#266df1",
-        'gray1': "#e9e9e4",
+        'gray1': "#f0f4f6",
         'blue-light': "#568df4",
         'bright-Orange': "#FF742D",
         'soft-vanilla': "#FFF5D2",
