@@ -938,10 +938,6 @@ p{
   max-width: 325px;
 }
 
-.max-w-\[40\%\]{
-  max-width: 40%;
-}
-
 .max-w-\[600px\]{
   max-width: 600px;
 }
@@ -1962,6 +1958,11 @@ p{
   border-color: rgb(208 213 221 / var(--tw-border-opacity, 1));
 }
 
+.border-gray2{
+  --tw-border-opacity: 1;
+  border-color: rgb(208 213 221 / var(--tw-border-opacity, 1));
+}
+
 .bg-\[rgb\(255\2c 0\2c 0\)\]{
   --tw-bg-opacity: 1;
   background-color: rgb(255 0 0 / var(--tw-bg-opacity, 1));
@@ -1970,11 +1971,6 @@ p{
 .bg-black{
   --tw-bg-opacity: 1;
   background-color: rgb(52 64 84 / var(--tw-bg-opacity, 1));
-}
-
-.bg-blue-light{
-  --tw-bg-opacity: 1;
-  background-color: rgb(86 141 244 / var(--tw-bg-opacity, 1));
 }
 
 .bg-gray1{
@@ -2128,12 +2124,16 @@ p{
   padding-right: 1.25rem;
 }
 
+.pt-12{
+  padding-top: 3rem;
+}
+
 .pt-14{
   padding-top: 3.5rem;
 }
 
-.pt-12{
-  padding-top: 3rem;
+.pt-4{
+  padding-top: 1rem;
 }
 
 .text-left{
@@ -2192,14 +2192,14 @@ p{
   vertical-align: super;
 }
 
-.text-base{
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-
 .\!text-base{
   font-size: 1rem !important;
   line-height: 1.5rem !important;
+}
+
+.text-base{
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .font-bold{
@@ -2287,6 +2287,11 @@ p{
 }
 
 .text-\[\#484848\]{
+  --tw-text-opacity: 1;
+  color: rgb(72 72 72 / var(--tw-text-opacity, 1));
+}
+
+.text-black2{
   --tw-text-opacity: 1;
   color: rgb(72 72 72 / var(--tw-text-opacity, 1));
 }
@@ -2749,6 +2754,11 @@ body{
 }
 
 .hover\:bg-\[\#f9f9f9\]:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 249 249 / var(--tw-bg-opacity, 1));
+}
+
+.hover\:bg-gray3:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(249 249 249 / var(--tw-bg-opacity, 1));
 }
