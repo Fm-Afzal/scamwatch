@@ -1,13 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-body{
-  @apply font-lato;
+body {
+  @apply font-lato text-black;
 }
 
 .holder {
   @apply max-w-siteWidth mx-auto md:px-12 px-6;
+}
+
+@layer base {
+  /* h1 {
+    @apply text-64 font-normal leading-none;
+  } */
+
+  /* h1 {
+    @apply text-5xl font-normal leading-none;
+  } */
+  h2 {
+    @apply font-lato text-44  md:text-5xl font-bold leading-[3.5rem] -tracking-[0.0605rem] md:-tracking-[0.066rem];
+  }
+  h3 {
+    @apply text-2xl font-bold leading-none;
+  }
+  h4 {
+    @apply text-xl font-bold leading-none;
+  }
+
+  p {
+    @apply font-lato text-xl font-normal leading-8;
+  }
+
+  .block-pad {
+    @apply py-8 md:py-50;
+  }
+}
+
+.btn {
+  @apply text-center text-blue1 font-lato text-lg font-semibold leading-32 cursor-pointer uppercase underline;
 }
