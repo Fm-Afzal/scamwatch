@@ -20,6 +20,7 @@ module.exports = {
         'black': "#344054",
         'black2': "#484848",
         'blue1': "#266df1",
+        'blue2': "#1361f0",
         'blue-light': "#568df4",
         'gray1': "#f0f4f6",
         'gray2': "#d0d5dd",
