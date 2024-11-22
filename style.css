@@ -21,7 +21,7 @@ body {
     @apply text-5xl font-normal leading-none;
   } */
   h2 {
-    @apply font-lato text-44  md:text-5xl font-bold leading-[3.5rem] md:leading-[3.5rem] -tracking-[0.0605rem] md:-tracking-[0.066rem];
+    @apply font-lato text-44  lg:text-5xl font-bold leading-[3.5rem] lg:leading-[3.5rem] -tracking-[0.0605rem] lg:-tracking-[0.066rem];
   }
   h3 {
     @apply text-26 font-bold leading-32;
@@ -40,8 +40,12 @@ body {
 }
 
 .btn {
-  @apply text-center text-blue1 font-lato text-lg font-semibold leading-32 cursor-pointer uppercase underline;
+  @apply text-center text-blue1 font-lato text-lg font-semibold leading-32 cursor-pointer uppercase underline transition-all duration-300;
 }
 
-
-
+.btn:hover{
+  @apply text-blue2;
+}
+.btn:hover path{
+  @apply fill-blue2;
+}
