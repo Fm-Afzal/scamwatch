@@ -39,13 +39,71 @@ body {
   }
 }
 
+/* .siteLogo{
+  
+} */
+
 .btn {
   @apply text-center text-blue1 font-lato text-lg font-semibold leading-32 cursor-pointer uppercase underline transition-all duration-300;
 }
 
-.btn:hover{
+.btn:hover {
   @apply text-blue2;
 }
-.btn:hover path{
+.btn:hover path {
   @apply fill-blue2;
+}
+
+.main--menu > li > a::before {
+  position: absolute;
+  left: 50%;
+  bottom: -39px; /* Adjusted for better placement */
+  height: 0.25rem;
+  width: 0;
+  transform: translateX(-50%);
+  background-color: #568df4;
+  content: "";
+  transition: all 0.3s ease;
+}
+
+.main--menu > li > a:hover::before {
+  width: 100%;
+}
+
+.main--menu > li > a:hover {
+  color: #568df4;
+  transition: color 0.3s ease;
+}
+
+.main--menu > li:hover .navbar-dropdown {
+  opacity: 1;
+  visibility: visible;
+  z-index: 1000;
+  display: block;
+  transition: opacity 0.15s ease-in, visibility 0.15s ease-in;
+}
+
+.navbar-dropdown {
+  background-color: white;
+  position: absolute;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  top: 270%; /* Position below the parent link */
+  left: 0;
+  padding: 1rem; /* Adjust padding */
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.25);
+  border-radius: 0.25rem; /* Slightly rounded corners */
+}
+
+.navbar-dropdown ul li a {
+  color: #484848;
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.navbar-dropdown ul li a:hover {
+  color: #568df4;
+  text-decoration: underline; /* Visual cue for links */
 }
